@@ -9,16 +9,16 @@
 title: My Website
 
 # Your name to show in the footer
-author: Some Person
+author: Zach Hornfeld
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "About Me"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://notzach1234.github.io/intro-cs/"
 
 # --- Logo --- #
 
