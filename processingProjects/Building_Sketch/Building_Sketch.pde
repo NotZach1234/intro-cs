@@ -3,20 +3,34 @@
 //6/30/22
 //IntroCS summer 2022
 
-
-
+float r;
+float g;
+float b;
 
 void setup() {
 size(500,500);
+gradient(93,207,250,6,98,2);
+
+}
+
 background(78,53,36);
  noStroke();
-  fill(40,40,200);
+  fill(r, g, b);
   rect(00,00, 500, 300);
   fill(255);
   ellipse( 200, 40, 300, 70);
   ellipse( 300, 100, 250, 100);
 building(150,150,true,50,500);
+  
+}
 
+
+void gradient(float r1, float g1, float b1,
+float r2, float g2, float b2) {
+  for (int i = 0; i < height; i++) {
+  r = map(i, 0, height-1, 255, 255);
+  g = map(i, 0, height-1, 118, 175);
+  b = map(i, 0, height-1, 242, 54);
   
 }
 
